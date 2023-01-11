@@ -1,0 +1,9 @@
+
+Task Overview:
+Total number of tasks generated: 7
+Total number of completed tasks: 3
+Total number of incomplete tasks: 4
+Total number of overdue tasks: 3
+Percentage of tasks that are incomplete: 57.14285714285714%
+Percentage of tasks that are overdue: 42.857142857142854% 
+

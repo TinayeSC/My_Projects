@@ -1,0 +1,74 @@
+
+
+_________________________________________________________________
+
+ Task:				 Assign initial tasks
+ Assigned to:			 admin
+ Date assigned:			 2022-12-01 
+ Due date:			 2022-12-04
+ Task complete?			 Yes
+ Description:
+ use task_manager.py to assign each team member with their first task
+_________________________________________________________________.
+_________________________________________________________________
+ 
+ Task:				 test task manager
+ Assigned to:			 admin
+ Date assigned:			 2022-12-01 
+ Due date:			 2022-12-01
+ Task complete?			 No
+ Description:
+ add more tasks to task_manager.py to see if it is working correctly 
+_________________________________________________________________.
+_________________________________________________________________
+ 
+ Task:				 hand in work
+ Assigned to:			 sam
+ Date assigned:			 2022-12-01 
+ Due date:			 2022-12-02
+ Task complete?			 No
+ Description:
+ upload the files that correspond with task_manager.py to drop box and request for review
+_________________________________________________________________.
+_________________________________________________________________
+ 
+ Task:				 debugging
+ Assigned to:			 sam
+ Date assigned:			 2022-12-01 
+ Due date:			 2022-12-04
+ Task complete?			 Yes
+ Description:
+ make sure that there are no errors in the final draft of  task_manager.py
+_________________________________________________________________.
+_________________________________________________________________
+ 
+ Task:				 Mark task complete
+ Assigned to:			 sam
+ Date assigned:			 2022-12-28 
+ Due date:			 2022-12-29
+ Task complete?			 No
+ Description:
+ Mark task 24 as complete on the dashboard
+_________________________________________________________________.
+_________________________________________________________________
+ 
+ Task:				 Debug final errors
+ Assigned to:			 sam
+ Date assigned:			 2022-12-28 
+ Due date:			 2022-12-19
+ Task complete?			 No
+ Description:
+ Double check that each option works on task_manager.py
+_________________________________________________________________.
+_________________________________________________________________
+ 
+ Task:				 Date checking
+ Assigned to:			 sam
+ Date assigned:			 2022-12-28 
+ Due date:			 2023-01-01
+ Task complete?			 Yes
+ Description:
+ Check if the overdue aspect of the code works
+_________________________________________________________________. 
+ 
+ 
