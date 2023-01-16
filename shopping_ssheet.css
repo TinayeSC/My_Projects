@@ -1,34 +1,242 @@
-html{
+<!DOCTYPE html>
+{% load static %}
+<html> 
+  <head>
 
-	background-color: grey;
-}
+	<link rel="icon" type="image/x-icon" href="bask.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-h1{
-	color: white;
-	background-color: black;
-	font-size: 50px;
-	overflow: scroll;
-	text-position: center;
+  <link href = "/static/shopping_ssheet.css" rel = "stylesheet" type = "text/css">
+
+
+   <title> Sam's Goods</title> 
+  </head>
+
+<body>
+<div id = "title" class = "row">
+  
+	<div class = "col-md-9 background">
+    	<h1> Welcome to Sam's Goods</h1>
+  	</div>
+  
+	<div id = "dropdown" class = "col-md-3">
+    	
+  		<div class="dropdown">
+  		<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" <i class="fa fa-bars"></i> Categories</i> </button>
+		
+  
+		</div>
+	</div>
+</div>
+
+
+<div class = "row" id = "row1">
+
+	<div class = "col-md-2">
+	<button class = "btn btn-secondary btn-lg btn-block">Home</button>
+	</div>
+
+
+	<div class = "col-md-2">
+	<button class = "btn btn-secondary btn-lg btn-block"> Fruits </button>
+	</div>
+
+	<div class = "col-md-2">
+	<button class = "btn btn-secondary btn-lg btn-block"> Vegetables </button>
+	</div>
+
+	<div class = "col-md-2">
+	<button class = "btn btn-secondary btn-lg btn-block"> Meats </button>
+	</div>
+
+	<div class = "col-md-2">
+	<button class = "btn btn-secondary btn-lg btn-block"> Dairy </button>
+	</div>
+
+	<div class = "col-md-2">
+	<button class = "btn btn-secondary btn-lg btn-block"> Snacks </button>
+	</div>
+
+
+<span class="border"></span>
+</div>
+
+
+
+<div class ="row">	
+
+	<div class ="col-md-3"><h2> Bananas</h2>
+	<div class="container">
+ 		 <img class = "image" style = "width: 310px;height:250px;" src="{%static 'assets/bana.jpeg'%}"  >
+  		<div class="btn" > Add to Basket</div>
+	</div>	
+
+	<p style = "color:white;"><b>$1.00</b> Ethically sourced organic bananas.</p>
 	
-}
 
-.row{
-
-	background-color: grey;
-}
-
-button{
-
-	max-width: 100px;
-}
-
-.border{
-
-	background-color: black;
-}
 	
-h2{
+	</div>
 
-	color: white;
+	<div class = "col-md-3"><h2> Apples</h2>
+	<div class="container">
+ 		 <img class = "image" style = "width: 310px; height:250px;" src = "{%static 'assets/apples.jpeg'%}">
+  		<div class = "btn" > Add to Basket</div>
+	</div>
+	<p style = "color:white;"><b>$2.39</b> Juicy apples from  Zimbabwe</p>
+	
+	</div>
+	
 
-}
+	<div class = "col-md-3"><h2> Oranges</h2>
+	<div class="container">
+ 		<img class = "image" style = "width: 310px; height:250px;" src = "{%static 'assets/oranges.jpeg'%}">
+  		<div class = "btn" > Add to Basket</div>
+	</div>
+	<p style = "color:white;"> <b>$1.29</b> Sweet oranges from Spain</p>
+	
+	</div>
+
+	<div class = "col-md-3"><h2> Peaches</h2>
+	<div class="container">
+ 		<img class = "image" style = "width: 310px; height:250px;" src = "{%static 'assets/peach.jpeg'%}">
+  		<div class = "btn" > Add to Basket</div>
+		<p style = "color:white;"><b>$2.49</b> Organic peaches</p>
+	</div>
+
+	
+
+	</div>
+
+
+</div>	
+
+<div class ="row">	
+
+	<div class ="col-md-3"><h2> Spinach</h2>
+	<div class="container">
+ 		<img class = "image" style = "width: 310px;height:250px;" src="{%static 'assets/spinach.webp'%}"  >
+  		<div class = "btn"> Add to Basket</div>
+	</div>
+	
+	<p style = "color:white;"><b>$2.29</b> Freshly grown organic spinach.</p>
+	
+	
+	</div>
+
+	<div class = "col-md-3"><h2> Sweet Potato</h2>
+	<div class="container">
+ 		<img class = "image" style = "width: 310px; height:250px;" src = "{%static 'assets/sweetp.jpeg'%}">
+  		<div class = "btn" > Add to Basket</div>
+	</div>
+	
+	
+	<p style = "color:white;"><b>$3.10</b> Organic sweet potatoes </p>
+
+	</div>
+	
+
+	<div class = "col-md-3"><h2> Carrots</h2>
+	<div class="container">
+ 		<img class = "image" style = "width: 310px; height:250px;" src = "{%static 'assets/Carrots.jpeg'%}">
+  		<div class = "btn" > Add to Basket</div>
+	</div>
+	
+	<p style = "color:white;"><b>$1.05</b> Organic carrots. </p>
+	
+	</div>
+
+	<div class = "col-md-3"><h2> Green Beans</h2>
+	<div class="container">
+ 		<img class = "image" style = "width: 310px; height:250px;" src = "{%static 'assets/beans.webp'%}">
+  		<div class = "btn"  > Add to Basket</div>
+	</div>
+	
+	
+	<p style = "color:white;"> <b>$0.99</b> Organic green beans. </p>
+	
+	</div>
+
+
+</div>
+
+
+<div class ="row">	
+
+	<div class ="col-md-3"><h2> Doughnuts</h2>
+	<div class="container">
+ 		<img class = "image" style = "width: 310px;height:250px;" src="{%static 'assets/Donuts.jpeg'%}"  >
+  		<div class = "btn" > Add to Basket</div>
+	</div>
+	
+	
+	<p style = "color:white;"><b>$1.29</b> Freshly made doughnuts, check store in person for flavour options.</p>
+	
+	
+	</div>
+
+	<div class = "col-md-3"><h2> Milk Chocolate</h2>
+	<div class="container">
+ 		<img class = "image" style = "width: 310px; height:250px;" src = "{%static 'assets/Choc.png'%}">
+  		<div class = "btn"> Add to Basket</div>
+	</div>
+
+	
+	
+	<p style = "color:white;"> <b>$3.50</b> Milk Chocolate made from ethically sourced cocoa. </p>
+	
+	</div>
+	
+
+	<div class = "col-md-3"><h2> Flapjacks</h2>
+	<div class="container">
+ 		<img class = "image" style = "width: 310px; height:250px;" src = "{%static 'assets/flapjack.jpeg'%}">
+		<div class = "btn"> Add to Basket</div>
+	</div>
+
+	
+	<p style = "color:white;"> <b>$2.39</b> Chocolate Chip Flapjacks made today. </p>
+	
+	</div>
+
+	
+
+
+</div>
+
+
+
+<div class = "row">
+<br>
+<br>
+
+<p style="color:white;"> To receive more information about our products and to stay updated about sales, please enter your contact information below.</p>
+	
+	
+
+	<div class ="col-md-3">
+		<label style ="color:white;" >Email: <input type= "text"> </label>
+		
+	</div>
+
+	<div class ="col-md-3">
+	<label style ="color:white;"> Phone Number: <input  type="text"> </label>	
+		
+	</div>
+	
+	<div class ="col-md-3">
+		<label style ="color:white;" >Name: <input  type= "text"> </label>
+	</div>
+
+	<div class = "col-md-1">
+	<p style = "color:white;"> Sam's Goods.inc  </p>
+	<img id = "logo" src = "{%static 'assets/logo.jpeg'%}" style = "display: inline-block; margin: 5px 5px 5px 5px; " >
+	
+	</div>
+	
+ 
+</div>
+
+<p style = "background-color: grey; color: white;"> I do not own any of the photographs used in this webpage</p>
+</body>
+</html>
