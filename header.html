@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html> 
+<head>
+
+    <link rel="stylesheet" href= "/static/blogsheet.css" type = "text/css">
+    <title>{% block title %}Blog:{{post.title}}{% endblock %}</title>
+
+</head>
+
+
+
+{% if post.id > 0%}
+	<h1>{{post.title}}</h1>
+	<p> Written on {{post.date}} </p>
+	<p>{{post.body}}</p>
+	<br> 
+	<p> {{post.signature}}</p>
+
+{% else %}
+	<h1> My posts</h1>
+	{% for post in object_list %}
+        	<h5>{{ post.date|date:"Y-m-d" }}<a href="/blog/{{post.id}}">
+	{{ post.title }}</a></h5>
+    	{% endfor %}
+
+
+{% endif %}
+
+</html>
+
+
+
+
+
